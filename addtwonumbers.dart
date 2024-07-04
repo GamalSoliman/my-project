@@ -14,10 +14,10 @@ print('the first number is larger than the second number');
 }else{
   print('the second number is larger than the first number');
 }*/
-var m=20;
-var n=m;
-n=m ??= 10;
-print(n);
+var m=50;
+var n=40;
+String result= (n>m) ? 'n is larger than m ': 'm is larger than n';
+print(result);
 }
 /*void addtwonumbers( int number1 , int number2){
 print(number1+number2);
